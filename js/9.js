@@ -1,3 +1,9 @@
+/*  Escribir el algoritmo que lea una hora y que muestre la programación de
+    acuerdo al horario en que se transmite “dibujos animados ” : Si es de 10 a
+    12 horas, “ tele serie ” : si es de 13 a 16 horas, “ novelas repetidas ” :
+    si es de 16 a 18 horas, “dibujos animados ” : si es de 18 a 22 horas,
+    “noticiero” : si es de 22 a 23 horas. */
+
 function programacion( hora = 10 ) {
     
     if (hora < 10) {
